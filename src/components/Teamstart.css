@@ -1,0 +1,150 @@
+/* Team Section Styling */
+.team-section {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 80px 20px;
+    position: relative;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.section-header h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6f61;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-header h1 {
+    font-size: 36px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.section-header p {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+/* Team Card Styling */
+.team-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin: 15px; /* Maintain spacing between cards */
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+.team-img-wrapper {
+    position: relative;
+    height: 250px; /* Fixed height for images */
+    width: 100%;
+}
+
+.team-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images retain proper aspect ratio */
+    border-bottom: 5px solid #ff6f61;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+
+.team-card:hover .overlay {
+    opacity: 1;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 20px;
+    background: #26d48c;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    background: #343a40;
+    transform: scale(1.1);
+}
+
+/* Team Details */
+.team-details {
+    text-align: center;
+    padding: 15px;
+}
+
+.team-details h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 5px;
+}
+
+.team-details p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* Owl Carousel Adjustments */
+.owl-carousel .owl-stage {
+    display: flex;
+    justify-content: center; /* Ensure cards are centered */
+    gap: 20px; /* Maintain equal spacing between cards */
+}
+
+.owl-carousel .owl-item {
+    display: flex;
+    justify-content: center; /* Center cards */
+}
+
+/* Fix Carousel Overflow */
+.owl-carousel {
+    overflow: hidden; /* Prevent overflowing of content */
+    padding: 0 15px; /* Add padding to avoid side overlap */
+}
+
+/* Responsive Adjustments */
+@media screen and (min-width: 1024px) {
+    .team-carousel .owl-item {
+        width: calc(33.33% - 20px); /* 3 cards in a row with proper spacing */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .team-carousel .owl-item {
+        width: calc(50% - 20px); /* 2 cards per row for medium screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team-carousel .owl-item {
+        width: calc(100% - 30px); /* 1 card per row for small screens */
+    }
+}

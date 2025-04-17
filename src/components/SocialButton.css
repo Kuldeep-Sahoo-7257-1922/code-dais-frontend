@@ -1,0 +1,83 @@
+/* Social Button Container */
+.social-container {
+  position: fixed;
+  top: 20%; /* Position the button higher */
+  right: 0;
+  z-index: 1000;
+  transform: translateY(-50%);
+}
+
+/* Main Button - Rectangle with Half Circle */
+.social-main-btn {
+    background-color: #1842b6;
+    color: white;
+    padding: 11px 2px;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    width: 80px;
+}
+
+
+/* Main Button Hover Effect */
+.social-main-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Social Icons - Hidden by Default */
+.social-icons {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 80px; /* Adjusted for a closer distance from the main button */
+  transform: translateY(-50%);
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Show Icons on Hover */
+.social-container:hover .social-icons {
+  display: flex;
+}
+
+/* Icon Styling */
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  background-color: #0078d7;
+  transform: scale(1.1);
+}
+
+.social-icons i {
+  color: #0078d7;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover i {
+  color: white;
+}
+
+
+@media (max-width:768px){
+    .social-main-btn {
+  width: 50px; /* Control width */
+}
+}

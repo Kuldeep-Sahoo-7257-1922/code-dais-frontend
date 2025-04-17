@@ -1,0 +1,76 @@
+.popup-btn {
+  display: none;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .popup-btn {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .car-form {
+    display: none; /* Completely hides the form on smaller screens */
+  }
+  .car-cont {
+    width: 100%;
+    /* margin-top: -80px; */
+    /* margin-left: -30px; */
+    font-size: 10px;
+    padding: inherit;
+    width: 200%;
+  }
+  .car-arrow {
+    background-color: transparent;
+    top: 35%;
+    margin-left: -28px;
+    margin-right: -28px;
+  }
+  .carousel-caption {
+    justify-content: 0;
+    align-items: 0;
+    /* display: block; */
+    position: absolute;
+    /* right: 10%; */
+    /* bottom: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 1.25rem;
+    text-align: center; */
+  }
+  .car-arrow span {
+    /* font-size: 0; */
+  }
+  .carousel-item {
+    height: 200px;
+  }
+}
+
+.popup-btn {
+    position: fixed;
+    left: 10px;
+    top: 50px;
+    transform: translateY(-50%) rotate(90deg);
+    transform-origin: left center;
+    z-index: 9999;
+    /* transition: opacity 0.3s ease; Smooth transition for hiding */
+  }
+
+
+  .ringing{
+    animation: proper 1s infinite linear;
+  }
+  @keyframes proper{
+    0%{
+      transform: skew(0deg,0deg);
+    }
+    50%{
+      transform: skew(20deg,10deg);
+    }
+    100%{
+      transform: skew(0deg,0deg);
+    }
+  }
