@@ -1,4 +1,4 @@
-/*Hide the image container on mobile devices */ 
+/*Hide the image container on mobile devices */
 @media (max-width: 768px) {
   .image-container {
     display: flex;
@@ -308,7 +308,7 @@
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(/img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -951,7 +951,6 @@
 }
 
 @media (max-width: 992px) {
-  
   .carousel-item {
     min-height: 500px;
   }
@@ -991,7 +990,7 @@
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(/img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -1421,9 +1420,8 @@
     font-size: 13px;
   }
   #carouselId .carousel-indicators li {
-  display: none;
-}
-
+    display: none;
+  }
 }
 
 /*** Footer End ***/

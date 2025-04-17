@@ -22,7 +22,7 @@ const Navbar = () => {
                         {/* Navbar Brand */}
                         <Link to="/" className="navbar-brand">
                             <h1 className="text-white fw-bold d-block">
-                                High<span className="text-secondary">Tech</span>
+                                Code<span className="text-secondary">Dais</span>
                             </h1>
                         </Link>
 

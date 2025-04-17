@@ -26,7 +26,7 @@ const Factstart = () => {
                         <ReactWOW animation="fadeIn" delay=".5s">
                             <div className="d-flex counter">
                                 <h1 className="me-3 text-primary counter-value">120</h1>
-                                <h5 className="text-white mt-1">Total clients who love HighTech</h5>
+                                <h5 className="text-white mt-1">Total clients who love CodeDias</h5>
                             </div>
                         </ReactWOW>
                     </div>

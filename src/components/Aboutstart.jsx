@@ -15,7 +15,7 @@ const Aboutstart = () => {
                     </div>
                     <div className="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                         <h5 className="text-primary">About Us</h5>
-                        <h1 className="mb-4">About HighTech Agency And Its Innovative IT Solutions</h1>
+                        <h1 className="mb-4">About CodeDias Agency And Its Innovative IT Solutions</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
                         <p className="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
                         <Link to="/details" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</Link> {/* Updated route */}
