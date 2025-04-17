@@ -15,7 +15,7 @@ const Navbar = () => {
     
 
     return (
-        <div>
+        <div className="sticky-top">
             <div className="container-fluid bg-primary">
                 <div className="container">
                     <nav className="navbar navbar-dark navbar-expand-lg py-0">

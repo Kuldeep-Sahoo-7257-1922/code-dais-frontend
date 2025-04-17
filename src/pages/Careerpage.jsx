@@ -79,7 +79,7 @@ const CareerPage = () => {
             </header>
 
             <div className="form d-flex container apply-form" style={{ backgroundColor: "#eadeff", borderRadius: "10px" }} >
-                <img src="./src/img/OrgUVC-L_Bus-15_Single-04_1_-removebg.png" alt="" style={{ width: "40%", margin: "10px", borderRadius: "10px" }} />
+                <img src="/img/OrgUVC-L_Bus-15_Single-04_1_-removebg.png" alt="" style={{ width: "40%", margin: "10px", borderRadius: "10px" }} />
                 <div className="career-form-container apply-form-form " style={{ maxWidth: "70%" }}>
                     <h2 style={{ color: "#1842b6" }}>Apply for a Position</h2>
                     <form className="career-form" onSubmit={handleSubmit}>

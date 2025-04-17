@@ -28,8 +28,8 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6 portfolio-item web-des">
                       <div className="portfolio-wrap">
                           <figure>
-                              <img src="./src/img/portfolio-1.jpg" className="img-fluid" alt="Portfolio" />
-                              <a href="./src/img/portfolio-1.jpg" data-lightbox="portfolio" data-title="Lorem ipsum dolor" className="link-preview" title="Preview"><i className="fa-regular fa-eye text-danger"></i></a>
+                              <img src="/img/portfolio-1.jpg" className="img-fluid" alt="Portfolio" />
+                              <a href="/img/portfolio-1.jpg" data-lightbox="portfolio" data-title="Lorem ipsum dolor" className="link-preview" title="Preview"><i className="fa-regular fa-eye text-danger"></i></a>
                               <a href="" className="link-details" title="More Details"><i className="fa-solid fa-up-right-from-square"></i></a>
                           </figure>
 
@@ -43,8 +43,8 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6 portfolio-item web-dev">
                       <div className="portfolio-wrap">
                           <figure>
-                              <img src="./src/img/portfolio-2.jpg" className="img-fluid" alt="Portfolio" />
-                              <a href="./src/img/portfolio-2.jpg" className="link-preview" data-lightbox="portfolio" data-title="Nulla ullamcorper pharetra" title="Preview"><i className="fa-regular fa-eye"></i></a>
+                              <img src="/img/portfolio-2.jpg" className="img-fluid" alt="Portfolio" />
+                              <a href="/img/portfolio-2.jpg" className="link-preview" data-lightbox="portfolio" data-title="Nulla ullamcorper pharetra" title="Preview"><i className="fa-regular fa-eye"></i></a>
                               <a href="" className="link-details" title="More Details"><i className="fa-solid fa-up-right-from-square"></i></a>
                           </figure>
 
@@ -58,8 +58,8 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6 portfolio-item app-des">
                       <div className="portfolio-wrap">
                           <figure>
-                              <img src="./src/img/portfolio-3.jpg" className="img-fluid" alt="Portfolio" />
-                              <a href="./src/img/portfolio-3.jpg" className="link-preview" data-lightbox="portfolio" data-title="Phasellus eget dictum" title="Preview"><i className="fa-regular fa-eye"></i></a>
+                              <img src="/img/portfolio-3.jpg" className="img-fluid" alt="Portfolio" />
+                              <a href="/img/portfolio-3.jpg" className="link-preview" data-lightbox="portfolio" data-title="Phasellus eget dictum" title="Preview"><i className="fa-regular fa-eye"></i></a>
                               <a href="" className="link-details" title="More Details"><i className="fa-solid fa-up-right-from-square"></i></a>
                           </figure>
 
@@ -73,8 +73,8 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6 portfolio-item app-dev">
                       <div className="portfolio-wrap">
                           <figure>
-                              <img src="./src/img/portfolio-4.jpg" className="img-fluid" alt="Portfolio" />
-                              <a href="./src/img/portfolio-4.jpg" data-lightbox="portfolio" data-title="Lorem ipsum dolor" className="link-preview" title="Preview"><i className="fa-regular fa-eye"></i></a>
+                              <img src="/img/portfolio-4.jpg" className="img-fluid" alt="Portfolio" />
+                              <a href="/img/portfolio-4.jpg" data-lightbox="portfolio" data-title="Lorem ipsum dolor" className="link-preview" title="Preview"><i className="fa-regular fa-eye"></i></a>
                               <a href="" className="link-details" title="More Details"><i className="fa-solid fa-up-right-from-square"></i></a>
                           </figure>
 
@@ -88,8 +88,8 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6 portfolio-item web-des">
                       <div className="portfolio-wrap">
                           <figure>
-                              <img src="./src/img/portfolio-5.jpg" className="img-fluid" alt="Portfolio" />
-                              <a href="./src/img/portfolio-5.jpg" className="link-preview" data-lightbox="portfolio" data-title="Nulla ullamcorper pharetra" title="Preview"><i className="fa-regular fa-eye"></i></a>
+                              <img src="/img/portfolio-5.jpg" className="img-fluid" alt="Portfolio" />
+                              <a href="/img/portfolio-5.jpg" className="link-preview" data-lightbox="portfolio" data-title="Nulla ullamcorper pharetra" title="Preview"><i className="fa-regular fa-eye"></i></a>
                               <a href="" className="link-details" title="More Details"><i className="fa-solid fa-up-right-from-square"></i></a>
                           </figure>
 
@@ -103,8 +103,8 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6 portfolio-item web-dev">
                       <div className="portfolio-wrap">
                           <figure>
-                              <img src="./src/img/portfolio-6.jpg" className="img-fluid" alt="Portfolio" />
-                              <a href="./src/img/portfolio-6.jpg" className="link-preview" data-lightbox="portfolio" data-title="Phasellus eget dictum" title="Preview"><i className="fa-regular fa-eye"></i></a>
+                              <img src="/img/portfolio-6.jpg" className="img-fluid" alt="Portfolio" />
+                              <a href="/img/portfolio-6.jpg" className="link-preview" data-lightbox="portfolio" data-title="Phasellus eget dictum" title="Preview"><i className="fa-regular fa-eye"></i></a>
                               <a href="" className="link-details" title="More Details"><i className="fa-solid fa-up-right-from-square"></i></a>
                           </figure>
 

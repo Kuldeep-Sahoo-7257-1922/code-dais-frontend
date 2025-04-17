@@ -31,14 +31,14 @@ const Teamstart = () => {
                 >
                     {/* Team Cards */}
                     {[
-                        { name: 'John Doe', role: 'CEO', img: './src/img/team-1.jpg' },
-                        { name: 'John Doe', role: 'CEO', img: './src/img/team-1.jpg' },
-                        { name: 'Jane Smith', role: 'CTO', img: './src/img/team-2.jpg' },
-                        { name: 'Michael Johnson', role: 'Lead Developer', img: './src/img/team-3.jpg' },
-                        { name: 'Sarah Lee', role: 'Designer', img: './src/img/team-4.jpg' },
+                        { name: 'John Doe', role: 'CEO', img: '/img/team-1.jpg' },
+                        { name: 'John Doe', role: 'CEO', img: '/img/team-1.jpg' },
+                        { name: 'Jane Smith', role: 'CTO', img: '/img/team-2.jpg' },
+                        { name: 'Michael Johnson', role: 'Lead Developer', img: '/img/team-3.jpg' },
+                        { name: 'Sarah Lee', role: 'Designer', img: '/img/team-4.jpg' },
                     ].map((member, index) => (
                         <div className="team-card" key={index} style={{width:"400px"}}>
-                            <div className="team-img-wrapper">
+                            <div className="team-img-wrapper " style={{zIndex:"2000"}}>
                                 <img src={member.img} alt={member.name} className="team-img" />
                                 <div className="overlay">
                                     <div className="social-icons">

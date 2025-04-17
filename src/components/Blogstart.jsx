@@ -16,7 +16,7 @@ const Blogstart = () => {
                     <div className="col-lg-6 col-xl-4">
                         <ReactWOW animation="fadeIn" delay=".3s">
                             <div className="blog-item position-relative bg-light rounded">
-                                <img src="./src/img/blog-1.jpg" className="img-fluid w-100 rounded-top" alt="Blog 1" />
+                                <img src="/img/blog-1.jpg" className="img-fluid w-100 rounded-top" alt="Blog 1" />
                                 <span className="position-absolute px-4 py-3 bg-primary text-white rounded" style={{ top: '-28px', right: '20px' }}>
                                     Web Design
                                 </span>
@@ -36,7 +36,7 @@ const Blogstart = () => {
                                     </div>
                                 </div>
                                 <div className="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
-                                    <img src="./src/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="Author" />
+                                    <img src="/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="Author" />
                                     <h5>By Daniel Martin</h5>
                                     <span className="text-secondary">24 March 2023</span>
                                     <p className="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
@@ -53,7 +53,7 @@ const Blogstart = () => {
                     <div className="col-lg-6 col-xl-4">
                         <ReactWOW animation="fadeIn" delay=".5s">
                             <div className="blog-item position-relative bg-light rounded">
-                                <img src="./src/img/blog-2.jpg" className="img-fluid w-100 rounded-top" alt="Blog 2" />
+                                <img src="/img/blog-2.jpg" className="img-fluid w-100 rounded-top" alt="Blog 2" />
                                 <span className="position-absolute px-4 py-3 bg-primary text-white rounded" style={{ top: '-28px', right: '20px' }}>
                                     Development
                                 </span>
@@ -73,7 +73,7 @@ const Blogstart = () => {
                                     </div>
                                 </div>
                                 <div className="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
-                                    <img src="./src/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="Author" />
+                                    <img src="/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="Author" />
                                     <h5>By Daniel Martin</h5>
                                     <span className="text-secondary">23 April 2023</span>
                                     <p className="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
@@ -90,7 +90,7 @@ const Blogstart = () => {
                     <div className="col-lg-6 col-xl-4">
                         <ReactWOW animation="fadeIn" delay=".7s">
                             <div className="blog-item position-relative bg-light rounded">
-                                <img src="./src/img/blog-3.jpg" className="img-fluid w-100 rounded-top" alt="Blog 3" />
+                                <img src="/img/blog-3.jpg" className="img-fluid w-100 rounded-top" alt="Blog 3" />
                                 <span className="position-absolute px-4 py-3 bg-primary text-white rounded" style={{ top: '-28px', right: '20px' }}>
                                     Mobile App
                                 </span>
@@ -110,7 +110,7 @@ const Blogstart = () => {
                                     </div>
                                 </div>
                                 <div className="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
-                                    <img src="./src/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="Author" />
+                                    <img src="/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="Author" />
                                     <h5>By Daniel Martin</h5>
                                     <span className="text-secondary">30 Jan 2023</span>
                                     <p className="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>

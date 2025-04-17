@@ -7,7 +7,7 @@ const Aboutstart = () => {
                 <div className="row g-5">
                     <div className="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
                         <div className="h-100 position-relative">
-                            <img src="./src/img/about-1.jpg" className="img-fluid w-75 rounded" alt="About 1" style={{ marginBottom: '25%' }} />
+                            <img src="/img/about-1.jpg" className="img-fluid w-75 rounded" alt="About 1" style={{ marginBottom: '25%' }} />
                             <div className="position-absolute w-75" style={{ top: '25%', left: '25%' }}>
                                 <img src='./src/img/about-2.jpg' className="img-fluid w-100 rounded" alt="About 2" />
                             </div>

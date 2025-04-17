@@ -55,7 +55,7 @@ export default function Carousel() {
                     {/* First Carousel Item */}
                     <div className="carousel-item active">
                         <img
-                            src="./src/img/carousel-1.jpg"
+                            src="/img/carousel-1.jpg"
                             className="img-fluid"
                             alt="First slide"
                             style={{ height: "100vh", width: "100%" }}
@@ -201,7 +201,7 @@ export default function Carousel() {
                     {/* Second Carousel Item */}
                     <div className="carousel-item">
                         <img
-                            src="./src/img/carousel-2.jpg"
+                            src="/img/carousel-2.jpg"
                             className="img-fluid"
                             alt="Second slide"
                             style={{ height: "100vh", width: "100%" }}

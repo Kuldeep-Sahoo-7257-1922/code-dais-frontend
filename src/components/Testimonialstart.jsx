@@ -33,7 +33,7 @@ const Testimonial = () => {
                             <div className="d-flex align-items-center">
                                 <div className="">
                                     <img
-                                        src={`./src/img/testimonial-${item}.jpg`}
+                                        src={`/img/testimonial-${item}.jpg`}
                                         alt=""
                                     />
                                 </div>

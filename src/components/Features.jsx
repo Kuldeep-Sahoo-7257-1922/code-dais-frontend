@@ -40,7 +40,7 @@ const Features = () => {
 
               </ul>
               <figure className="features-banner">
-                  <img src="./src/images/feautres-banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
+                  <img src="/images/feautres-banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
                       className="w-100 banner-animation" />
               </figure>
 
